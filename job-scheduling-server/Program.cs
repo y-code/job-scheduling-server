@@ -4,7 +4,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Quartz;
 using Quartz.Impl;
-using Quartz.Spi;
 
 var configBuilder = new ConfigurationBuilder()
     .AddJsonFile("appsettings.json");

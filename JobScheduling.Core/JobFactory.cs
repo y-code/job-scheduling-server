@@ -1,6 +1,8 @@
 ﻿using Quartz;
 using Quartz.Spi;
 
+namespace JobScheduling.Core;
+
 internal class JobFactory : IJobFactory
 {
     public IJob NewJob(TriggerFiredBundle bundle, IScheduler scheduler)

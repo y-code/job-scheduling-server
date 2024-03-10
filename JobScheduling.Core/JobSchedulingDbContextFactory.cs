@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace JobSchedulingServer
+namespace JobScheduling.Core
 {
 	public class JobSchedulingDbContextFactory : IDesignTimeDbContextFactory<JobSchedulingDbContext>
 	{

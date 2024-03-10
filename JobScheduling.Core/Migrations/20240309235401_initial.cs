@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace JobSchedulingServer.Migrations
+namespace JobScheduling.Core.Migrations
 {
     /// <inheritdoc />
     public partial class initial : Migration
